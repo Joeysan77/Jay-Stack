@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+@import '../styles/fonts/Roboto/index.css';
+@import '../styles/fonts/FacebookSans/index.css';
+@import '../styles/fonts/Inter/index.css';
+@import '../styles/fonts/SamsungSans/index.css';
+
+* {
+    box-sizing: border-box;
+    transition: .3s !important;
+}
+
+body {
+    font-family: 'Samsung Sans';
+    background:#060010;
+    color: white;
+    padding-top: 80px;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none;    /* Firefox */
+}

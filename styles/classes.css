@@ -1,0 +1,62 @@
+@import 'tailwindcss';
+
+.w95 {
+    @apply w-[95%] mx-[2%];
+}
+.w90 {
+    @apply w-[90%] mx-[5%];
+}
+.w80 {
+    @apply w-[80%] mx-[10%];
+}
+.w70 {
+    @apply w-[70%] mx-[15%];
+}
+.w60 {
+    @apply w-[60%] mx-[20%];
+}
+.w50 {
+    @apply w-[50%] mx-[25%];
+}
+.w40 {
+    @apply w-[40%] mx-[30%];
+}
+.w30 {
+    @apply w-[30%] mx-[35%];
+}
+.w20 {
+    @apply w-[20%] mx-[40%];
+}
+.center {
+    @apply justify-center items-center ;
+}
+.between {
+    @apply justify-between;
+}
+.around {
+    @apply justify-around;
+}
+.v-center {
+    @apply items-center ;
+}
+.h-center {
+    @apply justify-center ;
+}
+.btn {
+    @apply font-medium text-center rounded ;
+}
+.line10 {
+    @apply bg-[rgba(0,0,0,0.4)] px-0 py-[.5px] rounded my-10;
+}
+.line5 {
+    @apply bg-[rgba(0,0,0,0.4)] px-0 py-[.5px] rounded my-5;
+}
+.line {
+    @apply bg-[rgba(0,0,0,0.4)] px-0 py-[.5px] rounded ;
+}
+.hide {
+    @apply pointer-events-none fixed opacity-0;
+}
+.show {
+    @apply pointer-events-auto;
+}
