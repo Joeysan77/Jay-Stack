@@ -5,6 +5,7 @@ import JayStackUi from './pages/JayStackUi'
 import JayStackFonts from './pages/JayStackFonts'
 import Docs from './pages/Docs'
 import About from './pages/About'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 export default function App() {
   return (
@@ -17,7 +18,7 @@ export default function App() {
       <Route path="/jay-stack-fonts" element={<JayStackFonts/>} />
       <Route path="/about" element={<About/>}/>
     </Routes>
-    
+    <SpeedInsights/>
   </div>
   );
 }
