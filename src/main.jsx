@@ -5,7 +5,6 @@ import App from "./App";
 import './index.css'
 import '../styles/classes.css';
 import '../styles/colors.css';
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 
