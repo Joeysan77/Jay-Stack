@@ -6,12 +6,14 @@ import JayStackFonts from './pages/JayStackFonts'
 import Docs from './pages/Docs'
 import About from './pages/About'
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import ScrollToTop from './components/ScrollToTop'
 
 export default function App() {
   return (
   <div className="relative">
     <Header/>
-    <Routes>
+    <ScrollToTop/>
+    <Routes>     
       <Route path="/" element={<Home />} />
       <Route path="/docs" element={<Docs/>} />
       <Route path="/jay-stack-ui" element={<JayStackUi/>} />
