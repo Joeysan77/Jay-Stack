@@ -31,7 +31,7 @@ export default function Step({ step, text, dir, code, copy, flex, desc }) {
                                 setIcon(false)
                             }, 2000)
                         }}
-                         className={`far ${icon ? "fa-check" : "fa-clipboard"} `}></i>
+                         className={`far ${icon ? "fa-check" : "fa-copy"} `}></i>
                     </div>
                 </div>
                 

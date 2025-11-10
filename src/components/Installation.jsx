@@ -75,8 +75,15 @@ export default function Installation( {openUtil} )  {
             desc="Locate colors.js from your project root in styles/colors.js"
             code={
             <>
-            <Blue text="import '../styles/colors.css'" />
-            <Blue text="import '../styles/classes.css'" />
+            <p className="flex">
+                <Purple text="import" />
+                <Blue text="'../styles/classes.css'"/>
+            </p>
+             <p className="flex">
+                <Purple text="import" />
+                <Blue text="'../styles/colors.css'"/>
+            </p>
+            
             
             </>
                 }

@@ -13,8 +13,8 @@ export default function JayStackUi() {
 
     return (
         <div>
-            
-            <div className="hide-scrollbar overflow-x-auto whitespace-nowrap flex ">
+          <div className="top-12 mt-0 z-10 py-3 bg-[#060010] fixed w-screen">
+            <div className="hide-scrollbar overflow-x-auto whitespace-nowrap flex sticky">
                 
                 <Page
                 text="Installation"
@@ -53,6 +53,7 @@ export default function JayStackUi() {
                 />
                 
             </div>
+           </div>
             
             <Div
             page={page}

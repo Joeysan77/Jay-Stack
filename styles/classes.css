@@ -58,5 +58,5 @@
     @apply pointer-events-none fixed opacity-0;
 }
 .show {
-    @apply pointer-events-auto;
+    @apply opacity-100 pointer-events-auto;
 }
