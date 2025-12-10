@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Samsung Sans';
+    src: url('./SamsungSans-Bold.woff2') format('woff2'),
+        url('./SamsungSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Samsung Sans';
+    src: url('./SamsungSans-Regular.woff2') format('woff2'),
+        url('./SamsungSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Samsung Sans';
+    src: url('./SamsungSans-Thin.woff2') format('woff2'),
+        url('./SamsungSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Samsung Sans';
+    src: url('./SamsungSans-Light.woff2') format('woff2'),
+        url('./SamsungSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Samsung Sans';
+    src: url('./SamsungSans-Medium.woff2') format('woff2'),
+        url('./SamsungSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
